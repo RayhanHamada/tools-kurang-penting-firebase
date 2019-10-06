@@ -1,0 +1,12 @@
+{
+  "name": "tools-kurang-penting-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/src/index.html",
+    "build": "parcel src/src/index.html --out-dir ./public/",
+    "deploy-hosting": "firebase deploy --only hosting"
+  },
+  "author": "",
+  "license": "ISC"
+}
